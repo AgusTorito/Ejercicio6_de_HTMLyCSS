@@ -1,7 +1,13 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .boton::before {
-    content: "Pasa por encima ";
+    content: "Pasa por encima"
 }
 
-#boton::before {
-    content: "!Hecho¡";
+#boton:hover::before {
+    content: "!Hecho¡"
 }
